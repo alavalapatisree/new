@@ -1,6 +1,6 @@
-L = [2,6,8,9]
+L = [1,2,3,4]
 h = L[0]
-for a in range(1, len(L)):
-    if(h < L[a]):
-        h = L[a]
+for b in range(1, len(L)):
+    if(h < L[b]):
+        h = L[b]
 print(h)
